@@ -1,0 +1,49 @@
+.header {
+  height: 70px;
+  box-shadow: 0 5px 20px 0 #0b076e0a;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--header-bg);
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 24px;
+}
+
+.logo-wrapper {
+  height: 20px;
+}
+
+.logo-img {
+  height: 100%;
+  width: 100%;
+}
+
+.center-header {
+  margin-left: 20px;
+
+  .navigation-item:first-child {
+    margin-left: 0px;
+  }
+
+  .navigation-item {
+    margin-left: 3rem !important;
+  }
+}
+
+.header-end,
+.center-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+}
+
+.sign-up {
+}
