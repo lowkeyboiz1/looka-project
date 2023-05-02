@@ -4,7 +4,7 @@ function DefaultLayout({ children }) {
   return (
     <div className="">
       <Header />
-      <div className="content">
+      <div className="content h-[2000px]">
         {children}
       </div>
     </div>
